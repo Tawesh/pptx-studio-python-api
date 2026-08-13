@@ -1,0 +1,179 @@
+{
+  "theme": "ocean",
+  "size": "16:9",
+  "filename_prefix": "demo_project_review",
+  "pages": [
+    {
+      "type": "cover",
+      "kicker": "PROJECT REVIEW · 2026 Q2",
+      "title": "智慧城市项目复盘",
+      "subtitle": "「城市大脑 3.0」交付总结与经验沉淀",
+      "decorations": [{"type": "waves", "color": "4DD0FF", "alpha": 16, "count": 4}],
+      "components": [
+        {
+          "type": "highlight",
+          "x": 0.7, "y": 5.3, "w": 12.0, "h": 1.6,
+          "items": [
+            {"value": "120", "unit": "天", "label": "项目周期", "color": "primary"},
+            {"value": "98%", "unit": "", "label": "按期交付", "color": "secondary"},
+            {"value": "42", "unit": "个", "label": "需求交付", "color": "accent"},
+            {"value": "35", "unit": "人", "label": "核心团队", "color": "success"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "EXECUTIVE SUMMARY",
+      "title": "项目总览",
+      "components": [
+        {
+          "type": "card",
+          "x": 0.7, "y": 2.0, "w": 5.8, "h": 4.6,
+          "icon": "🏆", "title": "项目成就",
+          "text": "城市大脑 3.0 成功上线，覆盖 12 个业务场景，日均处理数据 8 亿条，为城市治理提供实时决策支撑。",
+          "accent": "primary"
+        },
+        {
+          "type": "card",
+          "x": 6.85, "y": 2.0, "w": 5.8, "h": 2.2,
+          "icon": "✅", "title": "交付情况",
+          "text": "120 天交付 42 个需求，关键里程碑全部按期达成，验收一次通过。",
+          "accent": "secondary"
+        },
+        {
+          "type": "card",
+          "x": 6.85, "y": 4.4, "w": 5.8, "h": 2.2,
+          "icon": "📈", "title": "业务价值",
+          "text": "城市事件响应速度提升 60%，跨部门协同效率提升 45%。",
+          "accent": "accent"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "index": "01",
+      "title": "数据复盘",
+      "subtitle": "用数字说话"
+    },
+    {
+      "type": "content",
+      "kicker": "METRICS",
+      "title": "核心指标达成",
+      "components": [
+        {
+          "type": "kpi",
+          "x": 0.7, "y": 2.0, "w": 2.9, "h": 1.8,
+          "icon": "⏱️", "value": "98", "unit": "%", "label": "需求按期交付率", "delta": "+3%",
+          "accent": "primary"
+        },
+        {
+          "type": "kpi",
+          "x": 3.8, "y": 2.0, "w": 2.9, "h": 1.8,
+          "icon": "🐛", "value": "0.8", "unit": "个/千行", "label": "缺陷密度", "delta": "-62%",
+          "accent": "secondary"
+        },
+        {
+          "type": "kpi",
+          "x": 6.9, "y": 2.0, "w": 2.9, "h": 1.8,
+          "icon": "💰", "value": "87", "unit": "%", "label": "预算使用率", "delta": "-13%",
+          "accent": "accent"
+        },
+        {
+          "type": "kpi",
+          "x": 10.0, "y": 2.0, "w": 2.9, "h": 1.8,
+          "icon": "👥", "value": "4.6", "unit": "分", "label": "团队满意度", "delta": "+0.4",
+          "accent": "success"
+        },
+        {
+          "type": "line_chart",
+          "x": 0.7, "y": 4.3, "w": 6.2, "h": 2.6,
+          "series": [
+            {"label": "计划进度", "points": [{"value": 20}, {"value": 45}, {"value": 70}, {"value": 95}], "color": "text_muted"},
+            {"label": "实际进度", "points": [{"value": 18}, {"value": 48}, {"value": 75}, {"value": 98}], "color": "primary"}
+          ],
+          "labels": ["M1", "M2", "M3", "M4"]
+        },
+        {
+          "type": "radar_chart",
+          "x": 7.6, "y": 4.2, "size": 3.4,
+          "labels": ["进度", "质量", "成本", "风险", "协作"],
+          "values": [98, 92, 87, 78, 90]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "index": "02",
+      "title": "经验与教训",
+      "subtitle": "做得好 & 待改进"
+    },
+    {
+      "type": "content",
+      "kicker": "RETROSPECTIVE",
+      "title": "复盘总结",
+      "components": [
+        {
+          "type": "stat_compare",
+          "x": 0.7, "y": 2.0, "w": 12.0, "h": 2.2,
+          "left": {"label": "做得好的", "value": "6 项", "desc": "敏捷迭代 / 数据驱动 / 双周评审", "color": "success"},
+          "right": {"label": "待改进", "value": "4 项", "desc": "需求变更 / 跨团队沟通 / 测试资源", "color": "danger"},
+          "middle": {"label": "评分", "value": "8.5 / 10", "color": "accent"}
+        },
+        {
+          "type": "list",
+          "x": 0.7, "y": 4.6, "w": 5.8, "h": 2.4,
+          "marker": "icon", "marker_color": "success",
+          "items": [
+            {"text": "每日站会保持信息同步", "icon": "✔"},
+            {"text": "原型先行降低返工率", "icon": "✔"},
+            {"text": "关键路径资源双备份", "icon": "✔"}
+          ]
+        },
+        {
+          "type": "list",
+          "x": 6.85, "y": 4.6, "w": 5.8, "h": 2.4,
+          "marker": "icon", "marker_color": "danger",
+          "items": [
+            {"text": "需求变更未及时冻结", "icon": "✘"},
+            {"text": "联调环境准备滞后", "icon": "✘"},
+            {"text": "验收标准需提前对齐", "icon": "✘"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "ACTION ITEMS",
+      "title": "改进行动计划",
+      "components": [
+        {
+          "type": "steps",
+          "x": 0.7, "y": 2.3, "w": 12.0, "h": 3.0,
+          "current": 0,
+          "items": [
+            {"label": "需求冻结机制", "desc": "变更走审批流程"},
+            {"label": "环境提前准备", "desc": "联调环境前置"},
+            {"label": "验收标准对齐", "desc": "文档化验收清单"},
+            {"label": "持续复盘", "desc": "月度回顾会议"}
+          ]
+        },
+        {
+          "type": "quote",
+          "x": 0.7, "y": 5.5, "w": 12.0, "h": 1.4,
+          "text": "复盘不是追责，而是让下一次协作更高效。",
+          "author": "项目复盘会共识",
+          "accent": "primary"
+        }
+      ]
+    },
+    {
+      "type": "cover",
+      "kicker": "THANKS",
+      "title": "感谢每一位参与者",
+      "subtitle": "让城市更智慧 · 让协作更美好",
+      "title_color": "text",
+      "decorations": [{"type": "waves", "color": "4DD0FF", "alpha": 20, "count": 5}]
+    }
+  ]
+}

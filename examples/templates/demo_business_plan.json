@@ -1,0 +1,191 @@
+{
+  "theme": "crimson_gold",
+  "size": "16:9",
+  "filename_prefix": "demo_business_plan",
+  "pages": [
+    {
+      "type": "cover",
+      "kicker": "BUSINESS PLAN · 2026",
+      "title": "智能财税云平台",
+      "subtitle": "用 AI 重塑中小企业财税服务 · A 轮融资计划书",
+      "decorations": [
+        {"type": "glow", "color": "F5C542", "alpha": 22, "x_frac": 0.85, "y_frac": 0.2, "size": 4.0},
+        {"type": "top_bar", "color": "F5C542", "alpha": 100}
+      ],
+      "components": [
+        {
+          "type": "highlight",
+          "x": 0.7, "y": 5.4, "w": 12.0, "h": 1.6,
+          "items": [
+            {"value": "10", "unit": "亿元", "label": "市场规模", "color": "primary"},
+            {"value": "300", "unit": "万+", "label": "目标客户", "color": "secondary"},
+            {"value": "5000", "unit": "万", "label": "A 轮融资", "color": "accent"},
+            {"value": "30%", "unit": "", "label": "年增长率", "color": "success"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "EXECUTIVE SUMMARY",
+      "title": "执行摘要",
+      "components": [
+        {
+          "type": "card",
+          "x": 0.7, "y": 2.0, "w": 5.8, "h": 4.6,
+          "icon": "🎯", "title": "市场机会",
+          "text": "中国中小企业财税服务市场规模超千亿，传统代账行业数字化渗透率不足 30%。AI 技术将重构这一万亿级市场。",
+          "accent": "primary"
+        },
+        {
+          "type": "card",
+          "x": 6.85, "y": 2.0, "w": 5.8, "h": 2.2,
+          "icon": "💡", "title": "解决方案",
+          "text": "AI 自动记账报税 + 智能风控 + 全流程数字化，客单价降低 70%。",
+          "accent": "secondary"
+        },
+        {
+          "type": "card",
+          "x": 6.85, "y": 4.4, "w": 5.8, "h": 2.2,
+          "icon": "🚀", "title": "竞争优势",
+          "text": "自研财税大模型，准确率 99.2%，已获 3 项发明专利。",
+          "accent": "accent"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "index": "01",
+      "title": "市场分析",
+      "subtitle": "千亿赛道 · 数字化窗口期"
+    },
+    {
+      "type": "content",
+      "kicker": "MARKET SIZE",
+      "title": "市场规模与增长",
+      "components": [
+        {
+          "type": "column_chart",
+          "x": 0.7, "y": 2.0, "w": 6.5, "h": 4.6,
+          "data": [
+            {"label": "2022", "value": 220},
+            {"label": "2023", "value": 310},
+            {"label": "2024", "value": 420},
+            {"label": "2025", "value": 560},
+            {"label": "2026E", "value": 720}
+          ],
+          "gradient": true, "color": "primary", "color2": "secondary"
+        },
+        {
+          "type": "pie_chart",
+          "x": 8.2, "y": 2.0, "size": 3.0,
+          "data": [
+            {"label": "代理记账", "value": 45, "color": "primary"},
+            {"label": "税务筹划", "value": 25, "color": "secondary"},
+            {"label": "财务咨询", "value": 18, "color": "accent"},
+            {"label": "其他", "value": 12, "color": "success"}
+          ],
+          "donut": true, "center_text": "市场结构"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "TARGET USERS",
+      "title": "目标客户画像",
+      "components": [
+        {
+          "type": "grid_cards",
+          "x": 0.7, "y": 2.0, "w": 12.0, "cols": 3, "gap": 0.4, "card_height": 4.4,
+          "cards": [
+            {"icon": "🏪", "title": "小微电商", "text": "月流水 10-500 万\n\n• 多平台账务混乱\n• 税务合规压力大\n• 人工成本高",
+             "accent": "primary"},
+            {"icon": "🏢", "title": "成长型企业", "text": "员工 50-500 人\n\n• 财务团队成本高\n• 报表时效性差\n• 风控能力弱",
+             "accent": "secondary"},
+            {"icon": "🏦", "title": "连锁门店", "text": "10+ 门店连锁\n\n• 门店核算复杂\n• 资金归集难\n• 需要集中管理",
+             "accent": "accent"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "index": "02",
+      "title": "商业模式",
+      "subtitle": "SaaS 订阅 + 增值服务"
+    },
+    {
+      "type": "content",
+      "kicker": "BUSINESS MODEL",
+      "title": "收入结构",
+      "components": [
+        {
+          "type": "pricing",
+          "x": 0.7, "y": 2.0, "w": 12.0, "h": 4.8,
+          "highlight": 1,
+          "plans": [
+            {"name": "基础版", "price": "¥99", "per": "月", "features": ["AI 自动记账", "基础报表", "邮件支持"], "button": "免费试用"},
+            {"name": "专业版", "price": "¥299", "per": "月", "features": ["全部基础功能", "智能税务筹划", "多门店管理", "专属顾问"], "button": "立即购买", "tag": "推荐"},
+            {"name": "企业版", "price": "¥999", "per": "月", "features": ["全部专业功能", "API 开放平台", "私有化部署", "7×24 支持"], "button": "联系销售"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "FINANCIALS",
+      "title": "财务预测",
+      "components": [
+        {
+          "type": "table",
+          "x": 0.7, "y": 2.0, "w": 12.0,
+          "headers": ["项目", "2026E", "2027E", "2028E"],
+          "rows": [
+            ["营收（万元）", "1200", "4200", "9800"],
+            ["付费客户（万）", "0.8", "2.5", "5.2"],
+            ["毛利率", "65%", "72%", "78%"],
+            ["净利润率", "-20%", "8%", "25%"]
+          ],
+          "header_bg": "primary",
+          "first_col_emphasis": true
+        },
+        {
+          "type": "funnel_chart",
+          "x": 0.7, "y": 4.3, "w": 12.0, "h": 2.6,
+          "data": [
+            {"label": "线索", "value": 1000},
+            {"label": "试用", "value": 420},
+            {"label": "付费", "value": 185},
+            {"label": "留存", "value": 132}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "FUND USE",
+      "title": "融资用途",
+      "components": [
+        {
+          "type": "bar_chart",
+          "x": 0.7, "y": 2.2, "w": 12.0, "h": 4.4,
+          "data": [
+            {"label": "产品研发", "value": 45},
+            {"label": "市场推广", "value": 30},
+            {"label": "团队扩充", "value": 15},
+            {"label": "运营储备", "value": 10}
+          ],
+          "gradient": true, "color": "primary", "color2": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "cover",
+      "kicker": "INVEST WITH US",
+      "title": "携手共创财税智能时代",
+      "subtitle": "期待与您深度交流 · contact@taxai.example.com",
+      "title_color": "text",
+      "decorations": [{"type": "glow", "color": "F5C542", "alpha": 20, "x_frac": 0.15, "y_frac": 0.2, "size": 4}]
+    }
+  ]
+}

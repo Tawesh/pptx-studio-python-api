@@ -1,0 +1,100 @@
+{
+  "theme": "deep_space",
+  "size": "16:9",
+  "filename_prefix": "my_custom_ppt",
+  "pages": [
+    {
+      "type": "cover",
+      "kicker": "CUSTOM DEMO",
+      "title": "我的定制 PPT",
+      "subtitle": "基于 PPTX Studio API 渲染",
+      "components": [
+        {
+          "type": "kpi",
+          "x": 0.9, "y": 5.4, "w": 2.7, "h": 1.5,
+          "icon": "🚀", "value": "32", "unit": "个", "label": "可用组件", "delta": "+10",
+          "accent": "primary"
+        },
+        {
+          "type": "kpi",
+          "x": 3.85, "y": 5.4, "w": 2.7, "h": 1.5,
+          "icon": "🎨", "value": "12", "unit": "套", "label": "内置主题", "delta": "+2",
+          "accent": "secondary"
+        },
+        {
+          "type": "kpi",
+          "x": 6.8, "y": 5.4, "w": 2.7, "h": 1.5,
+          "icon": "🧩", "value": "12", "unit": "种", "label": "页面装饰", "delta": "+5",
+          "accent": "accent"
+        },
+        {
+          "type": "kpi",
+          "x": 9.75, "y": 5.4, "w": 2.7, "h": 1.5,
+          "icon": "⚡", "value": "16:9", "unit": "", "label": "宽屏输出", "delta": "+100%",
+          "accent": "success"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "COMPONENTS",
+      "title": "组件能力一览",
+      "components": [
+        {
+          "type": "grid_cards",
+          "x": 0.7, "y": 2.0, "w": 12.0, "cols": 3, "gap": 0.35, "card_height": 3.6,
+          "cards": [
+            {"icon": "📊", "title": "图表组件", "text": "柱状图 / 折线图 / 雷达图 / 漏斗图 / 仪表盘 / 饼图 / 条形图", "accent": "primary"},
+            {"icon": "🧱", "title": "布局组件", "text": "卡片 / KPI / 网格 / 定价卡 / 时间线 / 步骤条 / 流程图", "accent": "secondary"},
+            {"icon": "✨", "title": "视觉组件", "text": "标题 / 富文本 / 列表 / 标签 / 引用 / 高亮数字 / 团队 / 画廊", "accent": "accent"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "DATA VIZ",
+      "title": "数据可视化演示",
+      "components": [
+        {
+          "type": "column_chart",
+          "x": 0.7, "y": 2.0, "w": 6.2, "h": 4.6,
+          "data": [
+            {"label": "Q1", "value": 82},
+            {"label": "Q2", "value": 91},
+            {"label": "Q3", "value": 76},
+            {"label": "Q4", "value": 98}
+          ],
+          "gradient": true, "color": "primary", "color2": "secondary"
+        },
+        {
+          "type": "gauge",
+          "x": 7.8, "y": 2.0, "size": 2.6,
+          "value": 0.88, "value_text": "88%", "label": "完成度",
+          "color": "accent", "gradient": true
+        },
+        {
+          "type": "gauge",
+          "x": 10.5, "y": 2.0, "size": 2.6,
+          "value": 0.72, "value_text": "72%", "label": "覆盖率",
+          "color": "success", "gradient": true
+        },
+        {
+          "type": "line_chart",
+          "x": 7.8, "y": 4.6, "w": 5.0, "h": 2.2,
+          "series": [
+            {"label": "增长", "points": [{"value": 40}, {"value": 62}, {"value": 78}, {"value": 92}], "color": "primary"}
+          ],
+          "labels": ["W1", "W2", "W3", "W4"]
+        }
+      ]
+    },
+    {
+      "type": "cover",
+      "kicker": "THANKS",
+      "title": "用代码生成精美 PPT",
+      "subtitle": "一条 JSON · 无限可能",
+      "title_color": "text"
+    }
+  ]
+}

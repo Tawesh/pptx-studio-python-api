@@ -1,0 +1,166 @@
+{
+  "theme": "azure_blue",
+  "size": "16:9",
+  "filename_prefix": "demo_product_launch",
+  "pages": [
+    {
+      "type": "cover",
+      "kicker": "PRODUCT LAUNCH · 2026",
+      "title": "Nebula OS 3.0",
+      "subtitle": "新一代 AI 原生操作系统 · 让智能无处不在",
+      "decorations": [
+        {"type": "glow", "color": "38BDF8", "alpha": 25, "x_frac": 0.8, "y_frac": 0.25, "size": 4.5},
+        {"type": "glow", "color": "818CF8", "alpha": 20, "x_frac": 0.15, "y_frac": 0.8, "size": 3.5}
+      ],
+      "components": [
+        {
+          "type": "badge", "x": 0.6, "y": 6.2, "w": 3.2, "h": 0.5,
+          "text": "🔷 发布会倒计时 3 天", "variant": "soft", "color": "38BDF8", "size": 14
+        },
+        {
+          "type": "badge", "x": 9.6, "y": 6.2, "w": 3.1, "h": 0.5,
+          "text": "📍 线上直播 · 19:00", "variant": "outline", "color": "FBBF24", "size": 13
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "AGENDA",
+      "title": "发布会流程",
+      "decorations": [{"type": "grid", "color": "38BDF8", "alpha": 10, "spacing": 1.0}],
+      "components": [
+        {
+          "type": "timeline",
+          "x": 0.7, "y": 2.0, "w": 12.0, "h": 4.8,
+          "items": [
+            {"time": "19:00", "title": "开场视频", "desc": "3D 产品概念片"},
+            {"time": "19:10", "title": "CEO 演讲", "desc": "愿景与战略"},
+            {"time": "19:35", "title": "产品演示", "desc": "Nebula OS 3.0 实机演示"},
+            {"time": "20:10", "title": "生态伙伴", "desc": "开发者计划发布"},
+            {"time": "20:30", "title": "Q&A", "desc": "媒体问答环节"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "KEY FEATURES",
+      "title": "三大核心亮点",
+      "components": [
+        {
+          "type": "grid_cards",
+          "x": 0.7, "y": 2.0, "w": 12.0, "cols": 3, "gap": 0.4, "card_height": 4.2,
+          "cards": [
+            {"icon": "🧠", "title": "AI 原生内核", "text": "系统级 AI 智能体，主动理解用户意图，跨应用执行任务。\n\n• 自然语言控制一切\n• 自动学习用户习惯\n• 隐私本地化推理",
+             "accent": "primary"},
+            {"icon": "⚡", "title": "性能飞跃", "text": "全新微内核架构，响应速度提升 3 倍，续航提升 40%。\n\n• 启动仅需 2.8 秒\n• 内存占用降低 35%\n• 冷启动优化",
+             "accent": "secondary"},
+            {"icon": "🔒", "title": "安全可控", "text": "端侧加密 + 可信计算，数据不出设备。\n\n• 全链路加密\n• 沙盒隔离应用\n• 透明权限管理",
+             "accent": "accent"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "SPECS",
+      "title": "产品规格一览",
+      "components": [
+        {
+          "type": "highlight",
+          "x": 0.7, "y": 1.9, "w": 12.0, "h": 2.0,
+          "items": [
+            {"value": "2.8", "unit": "秒", "label": "冷启动", "color": "primary"},
+            {"value": "3x", "unit": "", "label": "响应速度", "color": "secondary"},
+            {"value": "40%", "unit": "", "label": "续航提升", "color": "accent"},
+            {"value": "99.9%", "unit": "", "label": "稳定性", "color": "success"}
+          ]
+        },
+        {
+          "type": "table",
+          "x": 0.7, "y": 4.2, "w": 12.0,
+          "headers": ["版本", "面向用户", "核心能力", "价格"],
+          "rows": [
+            ["Nebula Lite", "个人用户", "AI 助手 + 基础功能", "免费"],
+            ["Nebula Pro", "专业用户", "高级 AI + 多端协同", "¥199/年"],
+            ["Nebula Enterprise", "企业客户", "私有化 + 定制化", "面议"]
+          ],
+          "header_bg": "primary",
+          "first_col_emphasis": true
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "PERFORMANCE",
+      "title": "性能对比",
+      "components": [
+        {
+          "type": "column_chart",
+          "x": 0.7, "y": 2.0, "w": 6.2, "h": 4.6,
+          "data": [
+            {"label": "启动", "value": 92},
+            {"label": "响应", "value": 86},
+            {"label": "续航", "value": 78},
+            {"label": "流畅", "value": 95},
+            {"label": "AI", "value": 89}
+          ],
+          "gradient": true, "color": "primary", "color2": "secondary"
+        },
+        {
+          "type": "gauge",
+          "x": 7.6, "y": 2.0, "size": 2.6,
+          "value": 0.92, "value_text": "92", "label": "用户满意度",
+          "color": "accent", "gradient": true
+        },
+        {
+          "type": "gauge",
+          "x": 10.4, "y": 2.0, "size": 2.6,
+          "value": 0.85, "value_text": "85", "label": "开发者好评",
+          "color": "success", "gradient": true
+        },
+        {
+          "type": "line_chart",
+          "x": 7.6, "y": 4.6, "w": 5.0, "h": 2.2,
+          "series": [
+            {"label": "性能指数", "points": [{"value": 60}, {"value": 75}, {"value": 88}, {"value": 95}], "color": "primary"}
+          ],
+          "labels": ["V1", "V2", "V3", "V4"]
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "kicker": "ROADMAP",
+      "title": "未来路线图",
+      "components": [
+        {
+          "type": "flow",
+          "x": 0.7, "y": 2.2, "w": 12.0, "h": 1.6,
+          "direction": "horizontal",
+          "nodes": [
+            {"text": "2026 Q3\n内测", "color": "primary"},
+            {"text": "2026 Q4\n公测", "color": "secondary"},
+            {"text": "2027 Q1\n正式发布", "color": "accent"},
+            {"text": "2027 Q2\n生态开放", "color": "success"}
+          ]
+        },
+        {
+          "type": "quote",
+          "x": 0.7, "y": 4.5, "w": 12.0, "h": 1.8,
+          "text": "Nebula OS 不是下一个操作系统，而是人机交互的下一个时代。",
+          "author": "Nebula 首席产品官",
+          "accent": "primary"
+        }
+      ]
+    },
+    {
+      "type": "cover",
+      "kicker": "JOIN US",
+      "title": "预约发布会 · 抢先体验",
+      "subtitle": "扫码预约 / 官网 nebula.example.com",
+      "decorations": [{"type": "glow", "color": "818CF8", "alpha": 20, "x_frac": 0.2, "y_frac": 0.75, "size": 4}],
+      "title_color": "text"
+    }
+  ]
+}
