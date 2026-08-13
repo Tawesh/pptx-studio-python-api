@@ -1,5 +1,7 @@
 # PPTX Studio 🎨
 
+[简体中文](README.md) | [English](README_EN.md)
+
 > 高度定制化的 PowerPoint 生成 API —— 一条 JSON，生成精美 PPTX。
 
 基于 **Flask + python-pptx**，提供 **32+ 可视化组件**、**12 套专业主题**、**12 种页面装饰**与自由坐标布局，无需任何前端工具，即可用纯代码（或 curl）生成媲美人工设计的演示文稿。
@@ -161,6 +163,7 @@ pptx-studio/
 ├── app.py                    # Flask API 入口
 ├── requirements.txt          # 依赖
 ├── README.md
+├── README_EN.md              # English documentation
 ├── LICENSE                   # MIT
 ├── .gitignore
 ├── core/
