@@ -19,6 +19,12 @@
 
 ---
 
+## 效果预览
+
+<img width="1920" height="985" alt="image" src="https://github.com/user-attachments/assets/48b37ba6-c48f-4e26-b8c4-bf4f8446ca3a" />
+
+
+
 ## 🚀 快速开始
 
 ```bash
